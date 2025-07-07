@@ -1,0 +1,75 @@
+h1{
+    color: white;
+}
+
+body{
+    height:100vh;
+    background-image: url("/image 1.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+
+}
+.login{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Moves the div exactly to the center */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.image{
+    
+    
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%); /* Moves the div exactly to the center */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Moves the div exactly to the center */
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    border-color: black;
+}
+.main{
+    position: absolute;
+    top: 45%;
+    right: 28%;
+    transform: translate(-10%, -40%); /* Moves the div exactly to the center */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    }
+.main1{
+    position: absolute;
+    top: 54%;
+    right: 28%;
+    transform: translate(-10%, -40%); /* Moves the div exactly to the center */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+input {
+    width: 300px; /* Adjust width */
+    height: 5px; /* Adjust height */
+    font-size: 10px; /* Increase font size for better readability */
+    padding: 10px; /* Add some padding inside the box */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
